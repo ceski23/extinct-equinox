@@ -3,6 +3,8 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://ceski23.github.io',
+	base: 'extinct-equinox',
 	integrations: [
 		starlight({
 			title: 'My Docs',
